@@ -5,6 +5,10 @@ category: Learning
 comments: true
 ---
 
+{% highlight ruby %}
+First peek at groovy
+{% endhighlight %}
+
 ##Groovy
 
 ### Syntax
