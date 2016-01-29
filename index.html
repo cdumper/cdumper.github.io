@@ -5,8 +5,8 @@ title: pieces of thoughts of cdumper
 
 <ul class="post-list">
     {% for post in site.posts %}
-        <a href="{{site.baseurl}}{{post.url}}"> {{ post.title }}  </a> <br>
-        {{ post.date | date: "%F" }} <br>
+        <a href="{{site.baseurl}}{{post.url}}"> {{ post.title }} </a> 
+        {{ post.date | date: "%F" }} 
         {{ post.category }} <br>
         {{ post.excerpt }} 
     {% endfor %}
